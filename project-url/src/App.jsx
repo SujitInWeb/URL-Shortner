@@ -1,10 +1,13 @@
 import './App.css'
+import BackgroundAnimate from './BackgroundAnimate'
+import InputShortner from './inputShortner'
 
 function App() {
 
   return (
-     <div className='App'>
-        hello
+     <div className='container'>
+        <InputShortner/>
+        <BackgroundAnimate />
      </div>
   )
 }
