@@ -1,5 +1,5 @@
 .inputContainer{
-    height: 50%;
+    height: 35%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -65,4 +65,35 @@
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     cursor: pointer;
+}
+/* styling the result section  */
+.result{
+    display: flex;
+    color: #F0F6FC;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+
+}
+.result p,button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 15px;
+    font-size: 1.25rem;
+}
+.result button{
+    background: none;
+    color: #F0F6FC;
+    border: 1px solid #FF953E;
+    background-color: #FF953E;
+}
+.result p{
+    width: 70%;
+    max-width: 300px;
+    border: 1px solid #FF953E;
 }
