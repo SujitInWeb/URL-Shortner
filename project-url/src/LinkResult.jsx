@@ -6,6 +6,9 @@ const LinkResult = () => {
     return (
         <div className="result">
             <p>{shortenLink}</p>
+
+        <CopyToClipBoard/>
+
             <button> Copy to clip board</button>
         </div>
     )
