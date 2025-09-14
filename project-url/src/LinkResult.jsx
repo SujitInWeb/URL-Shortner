@@ -17,7 +17,9 @@ const  useCopyToClipboard = () =>{
     return {copied ,copy};
 };
 
-const LinkResult = () => {
+const LinkResult = ({inputValue}) => {
+    console.log(inputValue);
+    
     const [shortenLink , setShortenLink] = useState("hello world");
     const {copied , copy} = useCopyToClipboard();
 
