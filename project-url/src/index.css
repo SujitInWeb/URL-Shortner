@@ -1,10 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .inputContainer{
     height: 35%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #F0F6FC;
+    color: #DDF0FF;
+    margin-top: 12vw;
 }
 
 .inputContainer h1{
@@ -12,7 +17,7 @@
     font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-style: normal;
-
+    margin: 30px 0 0 0;
 }
 .inputContainer span{
     color: #29903B;
@@ -36,8 +41,8 @@
     padding: 20px;
 }
 .inputContainer input{
-    width: 70%;
-    border: 1px solid #3D444D;
+    width: 50%;
+    border: 1px solid #1F1F1F;
     outline: none;
     height: 55px;
     max-width: 400px;
@@ -47,18 +52,18 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     background-color: #1F1F1F;
-    color: #F0F6FC;
+    color: #DDF0FF;
 }
 .inputContainer button{
     width: 30%;
     background-color: #29903B;
-    color: #F0F6FC;
+    color: #DDF0FF;
     display: flex;
     max-width: 150px;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    border: 1px solid #3D444D;
+    border: 1px solid #29903B;
     padding: 15px 15px;
     height: 55px;
     box-sizing: border-box;
@@ -69,9 +74,10 @@
 /* styling the result section  */
 .result{
     display: flex;
-    color: #F0F6FC;
+    color: #DDF0FF;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
     height: 5%;
     width: 100%;
 
@@ -88,7 +94,7 @@
 }
 .result button{
     background: none;
-    color: #F0F6FC;
+    color: #DDF0FF;
     min-width: 200px;
     border: 1px solid #FF953E;
     background-color: #FF953E;
@@ -98,9 +104,20 @@
 .result p{
     width: 70%;
     justify-content: flex-start;
-    max-width: 300px;
+    max-width: 350px;
     border: 1px solid #FF953E;
     font-family: "Roboto", sans-serif;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+.contain-heading{
+    width: 35%;
+    text-align: start;
+}
+.contain-heading p{
+    color: hsl(214, 12%, 40%);
+    font-family: roboto;
+    font-size: 1.25rem;
+    margin: 0 0 30px 0;
+    width: 100%;
 }

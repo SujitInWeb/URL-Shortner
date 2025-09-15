@@ -10,7 +10,10 @@ const InputShortner =({setInputValue}) => {
 
     return(
         <div className="inputContainer">
-            <h1>URL <span>Shortner</span></h1>
+            <div className="contain-heading">
+                <h1>URL <span>Shortner</span></h1>
+                <p>Paste your link below to and get a shortened version instantly</p>
+            </div>
             <div className="button-box">
                 <input type="text" 
                     placeholder="Paste a Link to shorten it"
