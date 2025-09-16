@@ -80,6 +80,7 @@
     margin-top: 10px;
     height: 5%;
     width: 100%;
+    padding: 10px;
 
 }
 .result p,button {
@@ -95,7 +96,7 @@
 .result button{
     background: none;
     color: #DDF0FF;
-    min-width: 200px;
+    max-width: 150px;
     border: 1px solid #FF953E;
     background-color: #FF953E;
     border-bottom-right-radius: 5px;
@@ -104,7 +105,7 @@
 .result p{
     width: 70%;
     justify-content: flex-start;
-    max-width: 350px;
+    max-width: 400px;
     border: 1px solid #FF953E;
     font-family: "Roboto", sans-serif;
     border-top-left-radius: 5px;
@@ -120,4 +121,145 @@
     font-size: 1.25rem;
     margin: 0 0 30px 0;
     width: 100%;
+}
+@media(max-width :425px){
+    .background{
+        width: 425px;
+        height: 100%;
+    }
+    .contain-heading h1{
+        font-size: 3rem;
+    }
+    .contain-heading p{
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    .container{
+        width: 425px;
+    }
+    .inputContainer{
+        width: 425px;
+        margin: 10px;
+    }
+    .inputContainer .contain-heading{
+        width: 80%;
+    }
+    .container .button-box input{
+        width:85%;
+        font-size: 15px;
+    }
+    .container .button-box button{
+        font-size: 15px;
+    }
+    .container .button-box{
+        padding: 20px 0;
+        width: 80%;
+    }
+    .container .result{
+        width: 425px;
+    }
+    .container .result p{
+        width:40%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .container .result button{
+        width: 40%;
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+@media(max-width :375px){
+    .background{
+        width: 375px;
+        height: 100%;
+    }
+    .contain-heading h1{
+        font-size: 3rem;
+    }
+    .contain-heading p{
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    .container{
+        width: 375px;
+    }
+    .inputContainer{
+        width: 375px;
+        margin: 10px;
+    }
+    .inputContainer .contain-heading{
+        width: 80%;
+    }
+    .container .button-box input{
+        width:85%;
+        font-size: 15px;
+    }
+    .container .button-box button{
+        font-size: 15px;
+    }
+    .container .button-box{
+        padding: 20px 0;
+        width: 80%;
+    }
+    .container .result{
+        width: 375px;
+    }
+    .container .result p{
+        width:40%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .container .result button{
+        width: 40%;
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+@media(max-width :320px){
+    .background{
+        width: 320px;
+        height: 100%;
+    }
+    .contain-heading h1{
+        font-size: 2.5rem;
+    }
+    .contain-heading p{
+        font-size: 0.85rem;
+        margin-bottom: 15px;
+    }
+    .container{
+        width: 320px;
+    }
+    .inputContainer{
+        width: 320px;
+        margin: 10px;
+    }
+    .inputContainer .contain-heading{
+        width: 80%;
+    }
+    .container .button-box input{
+        width:85%;
+        font-size: 15px;
+    }
+    .container .button-box button{
+        font-size: 15px;
+    }
+    .container .button-box{
+        padding: 20px 0;
+        width: 80%;
+    }
+    .container .result{
+        width: 320px;
+    }
+    .container .result p{
+        width:40%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .container .result button{
+        width: 40%;
+        font-size: 13px;
+        padding: 10px;
+    }
 }

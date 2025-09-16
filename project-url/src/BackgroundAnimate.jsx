@@ -1,6 +1,6 @@
 const BackgroundAnimate = () => {
     return (
-        <div class="background">
+        <div className="background">
         </div>
     )
 }
